@@ -16,7 +16,7 @@ The following GIF shows the output of the lane line detection pipeline:
 
 ## Project 2: Semantic Segmentation via Deep Neural Net (DNN)
 
-The goal of this project was to create a DNN with PyTorchcapable of producing a semantic segmentation model which achieves a mean Intersection over Union (mIOU) score of >40%.
+The goal of this project was to create a DNN with PyTorch capable of producing a semantic segmentation model which achieves a mean Intersection over Union (mIOU) score of >40%.
 
 Semantic Segmentation is the task of catergorizing each pixel in some input image into a specifc class, and for this project specifially, the classes were people, and cars.
 Some example input, and corresponding output images can be seen below.
