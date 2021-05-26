@@ -1,5 +1,15 @@
 ## Project 1: Lane Lines Image Detection w/ OpenCV
 
+The goal of this project was to use Python and OpenCV to create an image processing pipeline to detect the lane lines in a video taken from a car travelling along a road. The pipeline I created has the following steps:
+
+Convert RGB image to grayscale
+Apply Gaussian filter to image
+Use Canny Edge detection to find strong lines within image
+Apply a Region of Interest Mask in order to just look at the lane lines
+Hough Transform the image to create two continuous lines, one for each lane line
+Draw the detected lane lines over top of the original image
+
+
 ![](Project1.gif)
 
 You can use the [editor on GitHub](https://github.com/moward98/moward98.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
