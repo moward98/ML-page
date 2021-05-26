@@ -20,9 +20,9 @@ The goal of this project was to create a DNN with PyTorch which would be able pr
 
 Semantic Segmentation is the task of catergorizing each pixel in some input image into a specifc class.
 
-| Original Image| Semantic Segmentation Output|
-| :-------------: |:-------------:
-| ![](Image1.PNG)      |  ![](SegImg1.PNG) |
+| Original Image  | Semantic Segmentation Output|
+| :-------------: |:---------------------------:|
+| ![](Image1.PNG) |  ![](SegImg1.PNG)           |
 | col 2 is      | centered      |
 | zebra stripes | are neat      |
 
