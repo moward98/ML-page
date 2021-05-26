@@ -50,7 +50,7 @@ I then had to properly update the vehicle state and covariance estimate using th
 
 Finally I implemented the Kalman Filter loop to recursively estimate the state of the vehicle as it progresses through the workspace.
 
-The following image shows the path the vehicle actually traverses in orange, and shows the Kalman Filter estimate of the vehicle location in blue.
+The following image shows the path the vehicle actually traverses in orange, and shows the Extended Kalman Filter's estimate of the vehicle location in blue.
 
 ![](media/EKF.PNG)
 
