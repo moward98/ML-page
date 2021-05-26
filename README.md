@@ -34,7 +34,7 @@ In the first and second outputs, the car has been correctly classified. In the t
 In this project, I was given LiDAR sensor readings, with which I converted into a Probabilistic Occupancy Grid. This involved converting the data from spherical coordinates, to a Cartesian coordinate space, creating a logodds occupancy grid, and then converting said grid into the Probabilistic Occupancy Grid. 
 
 <p align="center">
-  <src="https://github.com/moward98/moward98.github.io/blob/main/media/ScannerReadings.PNG">
+  <width="300" height="460" src="https://github.com/moward98/moward98.github.io/blob/main/media/ScannerReadings.PNG">
 </p>
 
 You can use the [editor on GitHub](https://github.com/moward98/moward98.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
