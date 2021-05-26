@@ -22,9 +22,9 @@ Semantic Segmentation is the task of catergorizing each pixel in some input imag
 
 | Original Image  | Semantic Segmentation Output|
 | :-------------: |:---------------------------:|
-| ![](Image1.PNG) |  ![](SegImg1.PNG)           |
-| col 2 is      | centered      |
-| zebra stripes | are neat      |
+| ![](media/Image1.PNG) |  ![](media/SegImg1.PNG)           |
+| ![](Image2.PNG)     | ![](SegImg2.PNG)      |
+| ![](Image3.PNG) | ![](SegImg.PNG)      |
 
 
 
