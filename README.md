@@ -35,6 +35,7 @@ In this project, I was given LiDAR sensor readings, with which I converted into 
 
 <p align="center">
   <img src="https://github.com/moward98/moward98.github.io/blob/main/media/ScannerReadings.PNG" />
+  <figcaption>Caption goes here</figcaption>
 </p>
 
 <center>This image is a visual representation of the LiDAR Scanner (black) with a point cloud of its readings (red)</center> 
