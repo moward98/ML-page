@@ -16,7 +16,7 @@ The following GIF shows the output of the lane line detection pipeline:
 
 ## Project 2: Semantic Segmentation via Deep Neural Net (DNN)
 
-The goal of this project was to create a DNN with PyTorch which would be able produce a semantic segmentation model which achieves a mean Intersection over Union (mIOU) score of >40%.
+The goal of this project was to create a DNN with PyTorchcapable of producing a semantic segmentation model which achieves a mean Intersection over Union (mIOU) score of >40%.
 
 Semantic Segmentation is the task of catergorizing each pixel in some input image into a specifc class, and for this project specifially, the classes were people, and cars.
 Some example input, and corresponding output images can be seen below.
@@ -33,12 +33,10 @@ In the first and second outputs, the car has been correctly classified. In the t
 
 In this project, I was given LiDAR sensor readings, which I converted into a Probabilistic Occupancy Grid. This involved converting the data from spherical coordinates, to a Cartesian coordinate space, creating a logodds occupancy grid, and then converting said grid into the Probabilistic Occupancy Grid. The following image is a visual representation of the LiDAR Scanner (black) with a point cloud of its readings (red).
 
-<p align="center">
-  <img src="media/ScannerReadings.PNG" />
-</p>
+[](media/ScannerReadings.PNG)
 
 After the conversions, the Probabilistic Occupancy Grid can be visalized as follows:
-<p align="center">
-  <img src="https://github.com/moward98/moward98.github.io/blob/main/media/ProbabilisticGrid.PNG" />
-</p>
+
+[](media/ProbabilisticGrid.PNG)
+
 The colour density of the points represents the probability that the space is occupied (darker = higher probability).
