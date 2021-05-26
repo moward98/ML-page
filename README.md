@@ -23,11 +23,18 @@ Some example input, and corresponding output images can be seen below.
 
 | Original Image  | Semantic Segmentation Output|
 | :-------------: |:---------------------------:|
-| ![](media/Image1.PNG) | ![](media/SegImg1.PNG) *image_caption*|
-| ![](media/Image2.PNG) | ![](media/SegImg2.PNG)  Again, the car is correctly identified.|
-| ![](media/Image3.PNG) | ![](media/SegImg3.PNG)  In this image, the people on bikes are correctly identified|
+| ![](media/Image1.PNG) | ![](media/SegImg1.PNG)|
+| ![](media/Image2.PNG) | ![](media/SegImg2.PNG)|
+| ![](media/Image3.PNG) | ![](media/SegImg3.PNG)|
 
+In the first and second outputs, the car has been correctly classified. In the third output image, the people riding the bikes have been correctly identified.
 
+## Project 3: Probabilistic Occupancy Grid Generation from LiDAR Data
+
+In this project, I was given LiDAR sensor readings, with which I converted into a Probabilistic Occupancy Grid. This involved converting the data from spherical coordinates, to a Cartesian coordinate space, creating a logodds occupancy grid, and then converting said grid into the Probabilistic Occupancy Grid. 
+
+![](media/ScannerReadings.PNG)
+*This image is a visual representation of the LiDAR Scanner (black) and the pointcloud readings returned (red)*
 
 You can use the [editor on GitHub](https://github.com/moward98/moward98.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
