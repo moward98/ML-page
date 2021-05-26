@@ -33,10 +33,10 @@ In the first and second outputs, the car has been correctly classified. In the t
 
 In this project, I was given LiDAR sensor readings, which I converted into a Probabilistic Occupancy Grid. This involved converting the data from spherical coordinates, to a Cartesian coordinate space, creating a logodds occupancy grid, and then converting said grid into the Probabilistic Occupancy Grid. The following image is a visual representation of the LiDAR Scanner (black) with a point cloud of its readings (red).
 
-![](media/ScannerReadings.PNG) 
+![Image](media/ScannerReadings.PNG) 
 
 After the conversions, the Probabilistic Occupancy Grid can be visalized as follows:
 
-![](media/ProbabilisticGrid.PNG)
+![Image](media/ProbabilisticGrid.PNG)
 
 The colour density of the points represents the probability that the space is occupied (darker = higher probability).
