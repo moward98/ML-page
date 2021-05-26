@@ -19,7 +19,7 @@ The following GIF shows the output of the lane line detection pipeline:
 The goal of this project was to create a DNN with PyTorch which would be able produce a semantic segmentation model which achieves a mean Intersection over Union (mIOU) score of >40%.
 
 Semantic Segmentation is the task of catergorizing each pixel in some input image into a specifc class.
-
+![](Image1.gif) ![](SegImg1.gif)
 
 
 You can use the [editor on GitHub](https://github.com/moward98/moward98.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
