@@ -37,6 +37,8 @@ In this project, I was given LiDAR sensor readings, with which I converted into 
   <img src="https://github.com/moward98/moward98.github.io/blob/main/media/ScannerReadings.PNG" />
 </p>
 
+<center>This image is a visual representation of the LiDAR Scanner (black) with a point cloud of its readings (red)</center> 
+
 You can use the [editor on GitHub](https://github.com/moward98/moward98.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
