@@ -37,6 +37,11 @@ In this project, I was given LiDAR sensor readings, with which I converted into 
   <img src="https://github.com/moward98/moward98.github.io/blob/main/media/ScannerReadings.PNG" />
 </p>
 
+After the conversions, the Probabilistic Occupancy Grid can be visalized as follows:
+<p align="center">
+  <img src="https://github.com/moward98/moward98.github.io/blob/main/media/ProbabilisticGrid.PNG" />
+</p>
+The colour density of the points represents the probability that the space is occupied (darker = higher probability)
 
 You can use the [editor on GitHub](https://github.com/moward98/moward98.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
