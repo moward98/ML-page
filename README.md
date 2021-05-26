@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Project 1: Lane Lines Image Detection w/ OpenCV
+
+![](Project1.gif)
 
 You can use the [editor on GitHub](https://github.com/moward98/moward98.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
