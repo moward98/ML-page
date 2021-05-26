@@ -14,6 +14,14 @@ The following GIF shows the output of the lane line detection pipeline:
       
 ![](Project1.gif)
 
+## Project 2: Semantic Segmentation via Deep Neural Net (DNN)
+
+The goal of this project was to create a DNN with PyTorch which would be able produce a semantic segmentation model which achieves a mean Intersection over Union (mIOU) score of >40%.
+
+Semantic Segmentation is the task of catergorizing each pixel in some input image into a specifc class.
+
+
+
 You can use the [editor on GitHub](https://github.com/moward98/moward98.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
