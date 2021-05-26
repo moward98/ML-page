@@ -33,10 +33,25 @@ In the first and second outputs, the car has been correctly classified. In the t
 
 In this project, I was given LiDAR sensor readings, which I converted into a Probabilistic Occupancy Grid. This involved converting the data from spherical coordinates, to a Cartesian coordinate space, creating a logodds occupancy grid, and then converting said grid into the Probabilistic Occupancy Grid. The following image is a visual representation of the LiDAR Scanner (black) with a point cloud of its readings (red).
 
-![Image](media/ScannerReadings.PNG) 
+![](media/ScannerReadings.PNG) 
 
 After the conversions, the Probabilistic Occupancy Grid can be visalized as follows:
 
-![Image](media/ProbabilisticGrid.PNG)
+![](media/ProbabilisticGrid.PNG)
 
 The colour density of the points represents the probability that the space is occupied (darker = higher probability).
+
+## Project 4: Practical Application of an Extended Kalman Filter (EKF) 
+Provided measurements of known landmark location, and an inertial measurement unit sensor readings, this project involved fusing the aforementioned datastreams in order to estimate where the vehicle is in the workspace. 
+
+In order for the filter to work, I created a function which computes and returns the Jacobian of the measurement data for a given landmark and the current vehicle state. 
+
+I then had to properly update the vehicle state and covariance estimate using the landmark's true location, as well as it's LiDAR rand and bearing estimate. 
+
+Finally I implemented the Kalman Filter loop to recursively estimate the state of the vehicle as it progresses through the workspace.
+
+The following image shows the path the vehicle actually traverses in orange, and shows the Kalman Filter estimate of the vehicle location in blue.
+
+![](media/EKF.PNG)
+
+
