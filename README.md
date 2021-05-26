@@ -10,7 +10,7 @@ The goal of this project was to use Python and OpenCV to create an image process
 5. Hough Transform the image to create two continuous lines, one for each lane line
 6. Draw the detected lane lines over top of the original image
 
-The following GIF shows the output of the lane line detection pipeline
+The following GIF shows the output of the lane line detection pipeline:
       
 ![](Project1.gif)
 
