@@ -5,7 +5,6 @@ The following image is the original non-linear equation I was trying to solve.
 ![](media/NLEqn.PNG)
 
 The most accurate model created, was the one given the most amount of data points, and the most hidden nodes. It's prediction of the smooth curve is shown overlaid in red.
-
 ![](media/model.PNG)
 ## Project 2: Kohonen Self Organizing Map (KSOM)
 
