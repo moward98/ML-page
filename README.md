@@ -2,17 +2,13 @@ This page is intended to show some of my past projects regarding Machine Learnin
 ## Project 1: Non-Linear Regression via Feedforward Neural Net w/ Back-propagation
 The goal of this project was to create a neural net that could solve a non-linear regression equation. The neural net was created using keras, and scikit-learn was used for K-fold cross validation. During this project, I investigated the effect of varying the number of hidden nodes within the neural net, and the number of training data points the neural net was given.
 
-<p align="center">
-  <b>Original Non-Linear Equation Model is Trying to Predict</b><br>
-  <img src="https://github.com/moward98/ML-page/edit/main/media/NLEqn.PNG">
-</p>
+The following is the non-linear equation that the model is trying to predict.
+
+![](media/NLEqn.PNG)
 
 The most accurate model created, was the one given the most amount of data points, and the most hidden nodes. It's prediction of the smooth curve is shown overlaid in red.
 
-<p align="center">
-  <b>Model Prediction</b><br>
-  <img src="https://github.com/moward98/ML-page/blob/main/media/model.PNG">
-</p>
+![](media/model.PNG)
 
 ## Project 2: Kohonen Self Organizing Map (KSOM)
 
