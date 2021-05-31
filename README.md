@@ -61,3 +61,7 @@ These results indicate the CNN's are much more accurate than a multi-layer perce
   <img src="https://github.com/moward98/ML-page/blob/main/media/cnn2.PNG">
   <b>Time to Train: 14.3s</b><br>
 </p>
+
+||MLP| CNN1| CNN2|
+|:-:|:-:|:-:|:-:|
+|Time (s)|11.4|50.66|14.3|
