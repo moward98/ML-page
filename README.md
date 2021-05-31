@@ -35,20 +35,30 @@ Some of the KSOM outputs studied are shown in the table below.
 |![](media/60010.PNG)|![](media/60040.PNG)|![](media/60070.PNG)|
 
 
-The colour density of the points represents the probability that the space is occupied (darker = higher probability).
+## Project 3: MLP vs Deep Learning CNN Study
+Using TensorFlow, Keras, and scikit-learn, I created a multi-layer perceptron and two deep learning CNN's  with different architectures to compare the training and testing accuracies of the models. I also evaluated the training times for each model. 
 
-## Project 4: Fuzzy Logic Control of Inverted Pendulum
-Given a set of fuzzy rules and the system illustrated below, this project involved creating membership diagrams of said rules, and then using the to create a fuzzy inference for a given system state. 
+<p align="center">
+  <b>Model Results</b><br>
+  <img src="https://github.com/moward98/ML-page/blob/main/media/accuracies.PNG">
+</p>
 
-![](media/system.PNG)
+These results indicate the CNN's are much more accurate than a multi-layer perceptron. CNN1 having a training accuracy so much higher than it's testing accuracy points towards the model being overfit. However, CNN2 having mor balanced accuracies indicates it is the best model. 
 
-The four membership rules are shown below. The state of the vertical angle and the angular velocity of the pendulum, determine the current of the DC Motor required to keep the pendulum upright.
+<p align="center">
+  <b>MLP Accuracies</b><br>
+  <img src="https://github.com/moward98/ML-page/blob/main/media/mlp.PNG">
+  <b>Time to Train: 11.4s</b><br>
+</p>
 
-![](media/membership.PNG)
+<p align="center">
+  <b>Model Results</b><br>
+  <img src="https://github.com/moward98/ML-page/blob/main/media/cnn1.PNG">
+  <b>Time to Train: 50.66s</b><br>
+</p>
 
-Given a system state where the angle is 5° and the angular velocity is 15°/sec, the following fuzzy inference can be obtained.
-
-
-
-
-
+<p align="center">
+  <b>Model Results</b><br>
+  <img src="https://github.com/moward98/ML-page/blob/main/media/cnn2.PNG">
+  <b>Time to Train: 14.3s</b><br>
+</p>
