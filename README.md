@@ -10,15 +10,13 @@ The most accurate model created, was the one given the most amount of data point
 
 ## Project 2: Kohonen Self Organizing Map (KSOM)
 
-random coloured pixels. 
-cluster colours of similar shade into the same neighbourhood.
-Study effects of neighbourhood radius, and number of epochs run
-Want neighbourhood radius not too large or too small, higher epochs the better. 
-Look at the outputs.
+Given an image comprised of random coloured pixels, I created a Kohonen Self Organizing Map to cluster similar hues into the same neighbourhoods. Once I had created the KSOM, I studied the effects of changing the number of epochs run, as well as the neighbourhood radius. I learned that the more epochs ran, the smoother of a colour gradient was output, and that there was a fine line to having a neighbourhood radius not too large or too small. 
+Some of the KSOM outputs studied are shown in the table below.
 
-| Original Image  | Semantic Segmentation Output|
+
+| | 20  Epochs Ran  | 100 Epochs Ran | 600 Epochs Ran |
 | :-------------: |:---------------------------:|
-| ![](media/Image1.PNG) | ![](media/SegImg1.PNG)|
+| $\sigma$ | ![](media/SegImg1.PNG)|
 | ![](media/Image2.PNG) | ![](media/SegImg2.PNG)|
 | ![](media/Image3.PNG) | ![](media/SegImg3.PNG)|
 
