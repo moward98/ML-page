@@ -57,7 +57,7 @@ These results indicate the CNN's are much more accurate than a multi-layer perce
 
 <p align="center">
   <b>CNN2 Accuracies</b><br>
-  <img src="https://github.com/moward98/ML-page/blob/main/media/cnn2.PNG">
+  <img src="https://github.com/moward98/ML-page/blob/main/media/cnn1.PNG">
 </p>
 
 <p align="center">
