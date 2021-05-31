@@ -14,7 +14,7 @@ Given an image comprised of random coloured pixels, I created a Kohonen Self Org
 Some of the KSOM outputs studied are shown in the table below.
 
 
-||
+
 | :-------------: |:---:|:---: |:---:|
 | Radius = 20 | ![](media/SegImg1.PNG)| | |
 
