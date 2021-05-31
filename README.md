@@ -4,7 +4,7 @@ The goal of this project was to create a neural net that could solve a non-linea
 
 <p align="center">
   <b>Original Non-Linear Equation Model is Trying to Predict</b><br>
-  <img src="https://github.com/moward98/ML-page/blob/main/media/NLEqn.PNG">
+  <img src="https://github.com/moward98/ML-page/edit/main/media/NLEqn.PNG">
 </p>
 
 The most accurate model created, was the one given the most amount of data points, and the most hidden nodes. It's prediction of the smooth curve is shown overlaid in red.
