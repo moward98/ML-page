@@ -11,7 +11,7 @@ The most accurate model created, was the one given the most amount of data point
 ## Project 2: Kohonen Self Organizing Map (KSOM)
 
 Given an image comprised of random coloured pixels, I created a Kohonen Self Organizing Map to cluster similar hues into the same neighbourhoods. 
-### Initial Random Image
+#### Initial Random Image
 ![](media/original.PNG)
 
 
