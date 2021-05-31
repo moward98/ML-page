@@ -11,8 +11,11 @@ The most accurate model created, was the one given the most amount of data point
 ## Project 2: Kohonen Self Organizing Map (KSOM)
 
 Given an image comprised of random coloured pixels, I created a Kohonen Self Organizing Map to cluster similar hues into the same neighbourhoods. 
-#### Initial Random Image
-![](media/original.PNG)
+<p align="center">
+  <b>Initial Random Image</b><br>
+  <img src='https://github.com/moward98/ML-page/edit/main/media/original.PNG'>
+</p>
+
 
 
 Once I had created the KSOM, I studied the effects of changing the number of epochs run, as well as the neighbourhood radius. I learned that the more epochs ran, the smoother of a colour gradient was output, and that there was a fine line to having a neighbourhood radius not too large or too small. 
