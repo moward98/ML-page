@@ -22,17 +22,18 @@ Some example input, and corresponding output images can be seen below.
 
 The colour density of the points represents the probability that the space is occupied (darker = higher probability).
 
-## Project 4: Practical Application of an Extended Kalman Filter (EKF) 
-Provided measurements of known landmark location, and an inertial measurement unit sensor readings, this project involved fusing the aforementioned datastreams in order to estimate where the vehicle is in the workspace. 
+## Project 3: Fuzzy Logic Control of Inverted Pendulum
+Given a set of fuzzy rules and the system illustrated below, this project involved creating membership diagrams of said rules, and then using the to create a fuzzy inference for a given system state. 
 
-In order for the filter to work, I created a function which computes and returns the Jacobian of the measurement data for a given landmark and the current vehicle state. 
+![](media/system.PNG)
 
-I then had to properly update the vehicle state and covariance estimate using the landmark's true location, as well as it's LiDAR rand and bearing estimate. 
+The four membership rules are shown below. The state of the vertical angle and the angular velocity of the pendulum, determine the current of the DC Motor required to keep the pendulum upright.
 
-Finally I implemented the Kalman Filter loop to recursively estimate the state of the vehicle as it progresses through the workspace.
+![](media/membership.PNG)
 
-The following image shows the path the vehicle actually traverses in orange, and shows the Extended Kalman Filter's estimate of the vehicle location in blue.
+Given a system state where the angle is 5° and the angular velocity is 15°/sec, the following fuzzy inference can be obtained.
 
-![](media/EKF.PNG)
+
+
 
 
