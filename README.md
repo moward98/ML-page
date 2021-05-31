@@ -54,7 +54,7 @@ The CNN2 accuracies over time are:
 
 ![](media/cnn2.PNG)
 
-The Model Training times were:
+The Model Training times are:
 
 ![](media/times.PNG)
 
