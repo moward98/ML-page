@@ -51,6 +51,7 @@ The CNN1 accuracies over time are:
 
 
 The CNN2 accuracies over time are:
+
 ![](media/cnn2.PNG)
 
 The Model Training times were:
