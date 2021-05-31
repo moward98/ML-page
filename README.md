@@ -1,6 +1,8 @@
 ## Project 1: Non-Linear Regression via Feedforward Neural Net w/ Back-propagation
 The goal of this project was to create a neural net that could solve a non-linear regression equation. The neural net was created using keras, and scikit-learn was used for K-fold cross validation. During this project, I investigated the effect of varying the number of hidden nodes within the neural net, and the number of training data points the neural net was given.
 
+$\Sigma$
+
 <p align="center">
   <b>Original Non-Linear Equation Model is Trying to Predict</b><br>
   <img src="https://github.com/moward98/ML-page/blob/main/media/NLEqn.PNG">
@@ -23,7 +25,7 @@ Given an image comprised of random coloured pixels, I created a Kohonen Self Org
 
 
 
-Once I had created the KSOM, I studied the effects of changing the number of epochs run, as well as the neighbourhood radius. I learned that the more epochs ran, the smoother of a colour gradient was output, and that there was a fine line to having a neighbourhood radius not too large or too small. 
+Once I had created the KSOM, I studied the effects of changing the number of epochs run, as well as the initial neighbourhood radius (sigma). I learned that the more epochs ran, the smoother of a colour gradient was output, and that there was a fine line to having a neighbourhood radius not too large or too small. 
 Some of the KSOM outputs studied are shown in the table below.
 
 
