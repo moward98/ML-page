@@ -14,7 +14,7 @@ Given an image comprised of random coloured pixels, I created a Kohonen Self Org
 Some of the KSOM outputs studied are shown in the table below.
 
 
-| Original Image  | Semantic Segmentation Output|sample|
+| Sigma = 10  | Sigma = 40|Sigma = 70|
 | :-------------: |:---------------------------:|:-:|
 |![](media/2010.PNG) |![](media/2040.PNG) |![](media/2070.PNG) |
 |![](media/4010.PNG) |![](media/4040.PNG) |![](media/4070.PNG) |
