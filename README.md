@@ -43,7 +43,7 @@ Using TensorFlow, Keras, and scikit-learn, I created a multi-layer perceptron an
   <img src="https://github.com/moward98/ML-page/blob/main/media/accuracies.PNG">
 </p>
 
-These results indicate the CNN's are much more accurate than a multi-layer perceptron. CNN1 having a training accuracy so much higher than it's testing accuracy points towards the model being overfit. However, CNN2 having mor balanced accuracies indicates it is the best model. 
+These results indicate the CNN's are much more accurate than a multi-layer perceptron. CNN1 having a training accuracy so much higher than it's testing accuracy points towards the model being overfit. However, CNN2 having more balanced accuracies indicates it is the best model. 
 
 <p align="center">
   <b>MLP Accuracies</b><br>
