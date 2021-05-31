@@ -15,8 +15,10 @@ Some of the KSOM outputs studied are shown in the table below.
 
 
 
-| :-------------: |:---:|:---: |:---:|
-| Radius = 20 | ![](media/SegImg1.PNG)| | |
+|![](media/2010.PNG) |![](media/2040.PNG) |![](media/2070.PNG) |
+|![](media/4010.PNG) |![](media/4040.PNG) |![](media/4070.PNG) |
+|![](media/10010.PNG)|![](media/10040.PNG)|![](media/10070.PNG)|
+|![](media/60010.PNG)|![](media/60040.PNG)|![](media/60070.PNG)|
 
 
 The colour density of the points represents the probability that the space is occupied (darker = higher probability).
