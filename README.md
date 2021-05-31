@@ -35,29 +35,25 @@ Some of the KSOM outputs studied are shown in the table below.
 ## Project 3: MLP vs Deep Learning CNN Study
 Using TensorFlow, Keras, and scikit-learn, I created a multi-layer perceptron and two deep learning CNN's  with different architectures to compare the training and testing accuracies of the models. I also evaluated the training times for each model. 
 
-<p align="center">
-  <b>Model Results</b><br>
-  <img src="https://github.com/moward98/ML-page/blob/main/media/accuracies.PNG">
-</p>
+The model accuracies are:
+
+![](media/accuracies.PNG)
 
 These results indicate the CNN's are much more accurate than a multi-layer perceptron. CNN1 having a training accuracy so much higher than it's testing accuracy points towards the model being overfit. However, CNN2 having more balanced accuracies indicates it is the best model. 
 
-<p align="center">
-  <b>MLP Accuracies</b><br>
-  <img src="https://github.com/moward98/ML-page/blob/main/media/mlp.PNG">
-</p>
+The MLP accuracies over time are:
 
-<p align="center">
-  <b>CNN1 Accuracies</b><br>
-  <img src="https://github.com/moward98/ML-page/blob/main/media/cnn1.PNG">
-</p>
+![](media/mlp.PNG)
 
-<p align="center">
-  <b>CNN2 Accuracies</b><br>
-  <img src="https://github.com/moward98/ML-page/blob/main/media/test.PNG">
-</p>
+The CNN1 accuracies over time are:
 
-<p align="center">
-  <b>Model Training Times</b><br>
-  <img src="https://github.com/moward98/ML-page/blob/main/media/times.PNG">
-</p>
+![](media/cnn1.PNG)
+
+
+The CNN2 accuracies over time are:
+![](media/cnn2.PNG)
+
+The Model Training times were:
+
+![](media/times.PNG)
+
