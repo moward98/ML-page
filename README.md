@@ -13,7 +13,7 @@ The most accurate model created, was the one given the most amount of data point
 Given an image comprised of random coloured pixels, I created a Kohonen Self Organizing Map to cluster similar hues into the same neighbourhoods. 
 <p align="center">
   <b>Initial Random Image</b><br>
-  ![](media/original.PNG)
+  <img src="https://github.com/moward98/ML-page/blob/main/media/original.PNG">
 </p>
 
 
