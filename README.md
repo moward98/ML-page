@@ -14,9 +14,9 @@ Given an image comprised of random coloured pixels, I created a Kohonen Self Org
 Some of the KSOM outputs studied are shown in the table below.
 
 
-|| 20  Epochs Ran  | 100 Epochs Ran | 600 Epochs Ran |
+||
 | :-------------: |:---:|:---: |:---:|
-| \sigma | ![](media/SegImg1.PNG)| | |
+| Radius = 20 | ![](media/SegImg1.PNG)| | |
 
 
 The colour density of the points represents the probability that the space is occupied (darker = higher probability).
