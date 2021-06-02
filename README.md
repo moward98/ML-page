@@ -19,7 +19,7 @@ This is the initial image:
 ![](media/original.PNG)
 
 
-Once I had created the KSOM, I studied the effects of changing the number of epochs run, as well as the initial neighbourhood radius (sigma). I learned that the more epochs ran, the smoother of a colour gradient was output, and that there was a fine line to having a neighbourhood radius not too large or too small. 
+Once I had created the KSOM, I studied the effects of changing the number of epochs run, as well as the initial neighbourhood radius (sigma). I learned that the larger neighbourhood radius, the smoother the colour gradient, however more epochs were required for the full colour range to be expressed properly. 
 Some of the KSOM outputs studied are shown in the table below.
 
 
