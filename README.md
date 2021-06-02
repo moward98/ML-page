@@ -3,9 +3,9 @@ This page is intended to show some of my past projects regarding Machine Learnin
 |Project Index|
 |:-|
 |[Project 1: Non-Linear Regression via Feedforward Neural Net w/ Back-propagation](#project-1-non-linear-regression-via-feedforward-neural-net-w-back-propagation)|
-|[Project 2: Semantic Segmentation via Deep Neural Net (DNN)](#project-2-semantic-segmentation-via-deep-neural-net-dnn)|
-|[Project 3: Probabilistic Occupancy Grid Generation from LiDAR Data](#project-3-probabilistic-occupancy-grid-generation-from-lidar-data)|
-|[Project 4: Practical Application of an Extended Kalman Filter (EKF)](#project-4-practical-application-of-an-extended-kalman-filter-ekf)|
+|[Project 2: Kohonen Self Organizing Map (KSOM)](#project-2-kohonen-self-organizing-map-ksom)|
+|[Project 3: MLP vs Deep Learning CNN Study](#project-3-mlp-vs-deep-learning-cnn-study)|
+
 
 ## Project 1: Non-Linear Regression via Feedforward Neural Net w/ Back-propagation
 The goal of this project was to create a neural net that could solve a non-linear regression equation. The neural net was created using keras, and scikit-learn was used for K-fold cross validation. During this project, I investigated the effect of varying the number of hidden nodes within the neural net, and the number of training data points the neural net was given.
