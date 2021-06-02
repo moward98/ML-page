@@ -2,7 +2,7 @@ This page is intended to show some of my past projects regarding Machine Learnin
 
 |Project Index|
 |:-|
-|[Project 1: Non-Linear Regression via Feedforward Neural Net w/ Back-propagation](#project-1-nonlinear-regression-via-feedforward-neural-net-w-backpropagation)|
+|[Project 1: Non-Linear Regression via Feedforward Neural Net w/ Back-propagation](#project-1-non-linear-regression-via-feedforward-neural-net-w-back-propagation)|
 |[Project 2: Semantic Segmentation via Deep Neural Net (DNN)](#project-2-semantic-segmentation-via-deep-neural-net-dnn)|
 |[Project 3: Probabilistic Occupancy Grid Generation from LiDAR Data](#project-3-probabilistic-occupancy-grid-generation-from-lidar-data)|
 |[Project 4: Practical Application of an Extended Kalman Filter (EKF)](#project-4-practical-application-of-an-extended-kalman-filter-ekf)|
